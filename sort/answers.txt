@@ -1,0 +1,23 @@
+sort1 uses: Bubble Sort
+
+sort1 on random50k = 8.77secs
+sort1 on sorted50k = 0.90secs
+sort1 on reversed50k = 6.77secs
+
+How do you know?: I run sort1 on all the txt files provided. while it was the slowest on random50k and on reversed50k, it was very fast on the already sorted txt file (sorted50k). hence in alignment with the big-Ω(n) in best case scenario.
+
+sort2 uses: Merge Sort
+
+sort2 on random50x = 0.80secs
+sort2 on sorted50k = 0.895secs
+sort2 on reversed50k = 0.944secs
+
+How do you know?: sort2 was by far the fastest to sort the random50k txt file and the reversed50k txt file. Hence, definitely not on a big-O(n^2) when compared to sort1 and sort3
+
+sort3 uses: Selection Sort
+
+sort3 on random50k = 4.29secs
+sort3 on sorted50k = 4.002secs
+sort3 on reversed50k = 4.192secs
+
+How do you know?: sort3 took approximately 4 seconds to run on all the txt files provided. In alignment with a big-O(n^2) and a  big-Ω(n^2)
